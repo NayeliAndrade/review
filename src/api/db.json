@@ -1,0 +1,140 @@
+{
+  "stuff": [
+    {
+      "id": "beab4f40-14d9-496b-87b9-f5323576bsd8",
+      "title": "pelota",
+      "image": "assets/pelota.jpg",
+      "ranking": 2
+    },
+    {
+      "id": "beab4f40-14d9-496b-87b9-f5323576bf68",
+      "title": "reloj",
+      "image": "assets/reloj.jpg",
+      "ranking": 2
+    },
+    {
+      "id": "96a88835-659d-4e78-9463-03fabfc66cbf",
+      "title": "camara",
+      "image": "assets/camara.jpg",
+      "ranking": 1
+    },
+    {
+      "id": "808700ea-d176-4187-8a67-c49c0ea76f9f",
+      "title": "pera",
+      "image": "assets/reloj.jpg",
+      "ranking": 3
+    },
+    {
+      "id": "beab4f40-14d9-496b-87b9-f5323585bsd8",
+      "title": "pala",
+      "image": "assets/reloj.jpg",
+      "ranking": 2
+    },
+    {
+      "id": "beab4f40-14d9-256b-87b9-f5323576bf68",
+      "title": "audifonos",
+      "image": "assets/reloj.jpg",
+      "ranking": 3
+    },
+    {
+      "id": "96a88835-659d-4as8-9463-03fabfc66cbf",
+      "title": "tenis",
+      "image": "assets/camara.jpg",
+      "ranking": 1
+    },
+    {
+      "id": "808700ea-dad76-4187-8a67-c49c0ea76f9f",
+      "title": "mochila",
+      "image": "assets/reloj.jpg",
+      "ranking": 3
+    }
+  ],
+  "users": [
+    {
+      "id": "3",
+      "name": "juan",
+      "email": "prueba@gmail.com",
+      "password": "1245"
+    },
+    {
+      "id": "4",
+      "name": "jose",
+      "email": "prueba2@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "5",
+      "name": "Gerardo Mendez",
+      "email": "prueba3@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "a2afd2ea-e5b1-4b28-ab47-a0a721a9bc41",
+      "name": "luis",
+      "email": "prueba4@gmail.com",
+      "password": "123456789"
+    },
+    {
+      "id": "30613cc4-ff80-4f48-a788-f656e03b1823",
+      "name": "Andrea",
+      "email": "prueba5@gmail.com",
+      "password": "7894"
+    },
+    {
+      "id": "6",
+      "name": "angela",
+      "email": "prueba6@gmail.com",
+      "password": "1245"
+    },
+    {
+      "id": "a2a15fd2ea-e5b1-4b28-ab47-a0a721a9bc41",
+      "name": "ana",
+      "email": "prueba7@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "e52c8836-10ac-4ee6-9204-97f74b3151eb",
+      "name": "aldo",
+      "email": "aldo@aldo.com",
+      "password": "1234"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "a2afd2ea-e5b1-4b28-ab47-a0a721a9bc81",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptates quas, explicabo laudantium minus voluptate, ducimus velit incidunt possimus totam dolorum autem! Rem obcaecati quaerat vitae deserunt quo hic officiis.",
+      "userId": "4",
+      "stuffId": "beab4f40-14d9-496b-87b9-f5323576bsd8"
+    },
+    {
+      "id": "aswdad-wdw-weercr-pk145sd9",
+      "content": "2.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam, repellendus quos velit ducimus sed, optio, molestias voluptas nemo quod fuga quo nulla asperiores ad? Eum et incidunt ad totam itaque!",
+      "userId": "4",
+      "stuffId": "beab4f40-14d9-496b-87b9-f5323576bf68"
+    },
+    {
+      "id": "aswdad-wdw-weercr-pk145sd998",
+      "content": "3.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam, repellendus quos velit ducimus sed, optio, molestias voluptas nemo quod fuga quo nulla asperiores ad? Eum et incidunt ad totam itaque!",
+      "userId": "4",
+      "stuffId": "96a88835-659d-4e78-9463-03fabfc66cbf"
+    },
+    {
+      "id": "jhgsdj-14552-amsjn-usjdm45",
+      "content": "4.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam, repellendus quos velit ducimus sed, optio, molestias voluptas nemo quod fuga quo nulla asperiores ad? Eum et incidunt ad totam itaque!",
+      "userId": "30613cc4-ff80-4f48-a788-f656e03b1823",
+      "stuffId": "96a88835-659d-4e78-9463-03fabfc66cbf"
+    },
+    {
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptates quas, explicabo laudantium minus voluptate, ducimus velit incidunt possimus totam dolorum autem! Rem obcaecati quaerat vitae deserunt quo hic officiis.",
+      "id": "a0d8e608-d49c-482a-85a1-11f04d4e20b0",
+      "stuffId": "808700ea-d176-4187-8a67-c49c0ea76f9f",
+      "userId": "4"
+    },
+    {
+      "id": "9e7ae358-5e7b-4550-9118-9130dd942c56",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptates quas, explicabo laudantium minus voluptate, ducimus velit incidunt possimus totam dolorum autem! Rem obcaecati quaerat vitae deserunt quo hic officiis.",
+      "userId": "4",
+      "stuffId": "beab4f40-14d9-496b-87b9-f5323576bsd8"
+    }
+  ]
+}
