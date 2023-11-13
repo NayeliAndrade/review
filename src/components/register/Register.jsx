@@ -4,6 +4,7 @@ import { v4 as uuidv4 } from "uuid"
 import { useNavigate } from "react-router-dom";
 import { postUser } from "../../store/userSlice";
 import { Box, Button, TextField, Typography } from "@mui/material";
+import { FormStyled } from "./Register.styled"
 
 const Register = () => {
     const [name, setName] = useState("")
