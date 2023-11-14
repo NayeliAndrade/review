@@ -1,7 +1,10 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit"
 import axios from "axios"
 
-const endpointReview = "http://localhost:5000/reviews"
+const endpointReview = "https://review-ldgp.onrender.com/reviews"
+
+
+
 //obtener
 export const getReview = createAsyncThunk("review/getReview", async () => {
     const response = await axios.get(endpointReview)

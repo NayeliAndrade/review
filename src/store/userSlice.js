@@ -2,7 +2,7 @@ import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
 
 
-const endpointUser = "http://localhost:5000/users"
+const endpointUser = "https://review-ldgp.onrender.com/users"
 
 //obtener
 export const getUser = createAsyncThunk("user/getUser", async () => {
