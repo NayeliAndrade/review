@@ -3,7 +3,7 @@ import { useDispatch } from "react-redux";
 import { putReview } from "../../store/reviewSlice";
 import PropTypes from "prop-types";
 import { Box, Button } from "@mui/material";
-import { FormStyled } from "./EditReview.styled";
+import { FormStyled, TextareaStyled } from "./EditReview.styled";
 
 const EditReview = ({ review, closeEdit }) => {
     const dispatch = useDispatch()

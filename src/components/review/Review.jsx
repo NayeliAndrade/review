@@ -6,6 +6,7 @@ import { Card, CardContent, CardMedia, Rating, Typography } from "@mui/material"
 import ReviewList from "../reviewList/ReviewList";
 import AddReview from "../addReview/AddReview";
 import { getStuff } from "../../store/stuffSlice";
+import { DivStyled } from "./Review.styled";
 
 const Review = () => {
     const { id } = useParams()
