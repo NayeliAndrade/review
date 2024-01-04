@@ -56,7 +56,7 @@ const NavBar = () => {
     const unauthenticatedMenu = [
         {
             id: 1,
-            value: "Iniciar seción",
+            value: "Iniciar sesion",
             path: "/login"
         },
         {
@@ -194,7 +194,7 @@ const NavBar = () => {
                                 {settings.map((setting,) => (
                                     <Link key={setting.id} to={setting.path} style={{ margin: "4px", color: "black", textDecoration: "none" }}>{setting.value}</Link>
                                 ))} <br />
-                                <Button sx={{ color: "red" }} onClick={handleLogout}>cerrar secion</Button>
+                                <Button sx={{ color: "red" }} onClick={handleLogout}>cerrar sesion</Button>
                             </MenuItem>}
                         </Menu>
                     </Box>
