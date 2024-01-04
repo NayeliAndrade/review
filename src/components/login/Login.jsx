@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { getUser } from "../../store/userSlice";
 import { useNavigate } from "react-router-dom";
 import { loginUser } from "../../store/authSlice";
-import { Box, Button, TextField } from "@mui/material";
+import { Box, Button, CircularProgress, TextField } from "@mui/material";
 import { ErrorStyled, FormStyled } from "./Login.styled";
 
 const Login = () => {
@@ -13,6 +13,7 @@ const Login = () => {
     const dispatch = useDispatch();
     const users = useSelector((state) => state.user.data);
     const navigate = useNavigate()
+    const [isLoading, setIsLoading] = useState(false)
 
     useEffect(() => {
         dispatch(getUser());
@@ -28,7 +29,7 @@ const Login = () => {
             if (userToLogin.password === password) {
                 dispatch(loginUser(userToLogin))
                 navigate("/dashboard")
-
+                setIsLoading(true)
             } else {
                 setError("Contraseña incorrecta");
             }
@@ -62,6 +63,8 @@ const Login = () => {
                     required
                 />
                 <Button type="submit">Iniciar sesión</Button>
+
+                {isLoading && <CircularProgress />}
                 {error && <ErrorStyled>{error}</ErrorStyled>}
             </FormStyled>
         </Box>

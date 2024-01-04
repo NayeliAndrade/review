@@ -12,7 +12,6 @@ export const getReview = createAsyncThunk("review/getReview", async () => {
 })
 //crear
 export const postReview = createAsyncThunk("review/postReview", async (newReview) => {
-    console.log(newReview);
     const response = await axios.post(endpointReview, newReview)
     return response.data
 })

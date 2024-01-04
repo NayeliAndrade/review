@@ -26,7 +26,6 @@ const AddStuff = () => {
         //setimage(null);
         setRanking("");
         navigate("/dashboard")
-        console.log("sd");
     }
     const options = [1, 2, 3, 4, 5]
 
