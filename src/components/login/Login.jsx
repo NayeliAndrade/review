@@ -22,16 +22,17 @@ const Login = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         const userToLogin = users.find((user) => user.email === email);
-
+        setIsLoading(true)
         if (!userToLogin) {
             setError("Usuario no encontrado")
         } else {
             if (userToLogin.password === password) {
                 dispatch(loginUser(userToLogin))
                 navigate("/dashboard")
-                setIsLoading(true)
+
             } else {
                 setError("Contraseña incorrecta");
+                setIsLoading(false)
             }
         }
     };
